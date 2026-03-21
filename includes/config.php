@@ -7,10 +7,8 @@ if (!empty($_SERVER['VERCEL']) ||
     (!empty($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'vercel.app') !== false)) {
     
     // Production: Your Vercel URL
-    define('PUBLIC_URL', 'https://your-vercel-app.vercel.app');
-} else {
-    // Development: Local
-    define('PUBLIC_URL', 'http://10.34.84.31/aaj-aqua-v3');
+    define('PUBLIC_URL', 'https://aaj-aqua-project.vercel.app');
+    
 }
 
 function getPublicOrderUrl($relativePath = '/customer/order.php') {
