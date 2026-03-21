@@ -10,7 +10,7 @@ if (!empty($_SERVER['VERCEL']) ||
     define('PUBLIC_URL', 'https://your-vercel-app.vercel.app');
 } else {
     // Development: Local
-    define('PUBLIC_URL', 'http://localhost/aaj-aqua-v3');
+    define('PUBLIC_URL', 'http://10.34.84.31/aaj-aqua-v3');
 }
 
 function getPublicOrderUrl($relativePath = '/customer/order.php') {
